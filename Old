@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+<!-- <link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="verticalmenu.css">  -->
+
+<style>
+.programming-text{
+	color: red;
+	font-family: "Courier New", sans-serif;
+}
+</style>
+</head>
+
+<body>
+	<!--  <div class="navbar">
+  <a href="index1.htm">Home</a>
+
+   <div class="dropdown">
+    <button class="dropbtn">Geometry
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="header">
+        <h2>Geometry</h2>
+      </div>
+      <div class="row">
+        </div>
+ -->
+<!-- <div class="vertical-menu">
+  <a href="counting.htm">Counting </a>
+  <a href="addition.htm"> Addition </a>
+  <a href="subtraction.htm"> Subtraction</a>
+   <a href="multiplucation.htm"> Multiplication </a>
+    <a href="division.htm"> Division </a>
+  <a href="placevalue.htm"> Place Values</a>
+  <a href="measurement.htm"> Measurement </a>
+   <a href="complexno.htm"> Complex Numbers </a>
+    <a href="graphing.htm"> Graphing </a>
+</div>
+ -->
+
+<div class="nav">
+<a href="#">Area of Square</a>
+<a href="#">Are of Rectangle</a>
+<a href="#">Area of Circle</a>
+<a href="#">Area of Triangle</a>
+<a href="#">Area of Square</a>
+<a href="#">Area of Square</a>
+<a href="#">Area of Square</a>
+
+</div>
+	<div style="padding: 16px">
+		<div>
+			<div>
+				<h1>Geometry Functions in Java</h1><hr><br>
+			</div>
+		</div>
+	</div>
+
+
+				<!---f--->
+	   	      <!-- <embed src="complex1.mp4" autostart="false" height="300" width="1200" align= center />
+			<center>  <video width="500" height="240" controls>
+			<source src="multcomplex.mp4" type="video/mp4">
+			</video> </center>
+-->
+<p> Area of Square </p>
+
+<div class = "programming-text">
+	<p>Public double square(double x){</p>
+	<p>Double square;</p>
+	<p>square = x * x;</p>
+	<p>return square;</p>
+	<p>}</p>
+</div>
+<!--
+<p>
+	</p><center>
+
+	Double square;
+	Square = x*x;
+	Return square;
+}
+<p></p>
+</center>
+-->
+<p> Area of Cube </p>
+<p> </p><center>
+public double cube(double x){
+ double cube;
+	 cube = (x * x * x);
+	 return cube;
+ }
+
+<p></p>
+</center>
+
+<p> </p><center> Area of Rectangle
+public double calcAreaOfRectangle(double x, double y){
+	double calcAreaOfRectangle;
+	calcAreaOfRectangle = (x * y);
+	return calcAreaOfRectangle;
+}
+<p></p></center>
+
+<p> </p><center> Area of Circle
+public double calcAreaOfCircle(double r){
+	double calcAreaOfCircle;
+	calcAreaOfCircle = (Math.PI * r * r );
+	return calcAreaOfCircle;
+}
+ </center><p></p>
+
+ <p> </p><center> Circumference of Circle:
+
+public double circumOfCircle(double r){
+	double circumOfCircle;
+	circumOfCircle = (2*Math.pi*r);
+	Return circumOfCircle;
+}
+ </center><p></p>
+
+ <p> </p><center> Area of Triangle
+public double calcAreaOfTriangle(double x, double y){
+	double calcAreaOfTriangle;
+	calcAreaOfTriangle = (1.0/2.0 * x * y);
+	return calcAreaOfTriangle;
+
+}
+ </center><p></p>
+
+ <p> </p><center> Volume of Sphere
+public double calcVolOfSphere(double r){
+	double calcVolOfSphere;
+	calcVolOfSphere = ( 4.0/3 * Math.PI * r * r * r );
+	return calcVolOfSphere;
+}
+ </center><p></p>
+
+
+ <p> </p><center> Calculate Slope
+public double calcSlope(double x1, double y1, double x2, double y2){
+	double yDiff = y2 - y1;
+	double xDiff = x2 - x1;
+	double calcSlope = yDiff / xDiff;
+	return calcSlope;
+
+}
+ </center><p></p>
+
+
+ <p> </p><center> Fahrenheit to Celsius Conversion
+public double calcFahrenheitToCelsius(double F) {
+	Dou	ble temperature;
+	temperature = ((F - 32) / 1.8);
+	return temperature;
+
+}
+
+ </center><p></p>
+
+
+ <p> </p><center>Difference between two numbers”
+
+public double calcDifference(double x1, double x2){
+	double calcDifference;
+	calcDifference = Math.abs(x2 - x1);
+	return calcDifference;
+
+}
+
+ </center><p></p>
+
+ <p> </p><center>
+ Area of a triangle:
+
+public double calcAreaOfTriangle(double x, double y){
+	double calcAreaOfTriangle;
+	calcAreaOfTriangle = (1.0/2.0 * x * y);
+	return calcAreaOfTriangle;
+
+}
+
+
+}
+ </center><p></p>
+ <p> </p><center>Distance formula:
+public double calcDistance(double x1, double y1, double x2, double y2){
+	double calcTotalDistance;
+	double sqDiffX = Math.pow((x2 -x1), 2);
+	double sqDiffY = Math.pow((y2 -y1), 2);
+	double distance = Math.sqrt(sqDiffY + sqDiffX);
+	return distance;
+
+}
+ </center><p></p>
+ <style type="text/css">
+div.complex {
+	padding: 20px;
+	background: red;
+}
+
+.header {
+	position: relative;
+	width: 100%;
+}
+
+.headertext {
+	position: absolute;
+	top: 7%;
+	left: 0;
+	width: 100%;
+	height: 20px;
+}
+
+embed {
+	align: center;
+}
+
+h1 {
+	font-family: Arial;
+	text-align: center;
+}
+
+h2 {
+	font-family: Arial;
+	text-align: center;
+}
+
+p {
+	font-family: Arial;
+}
+</style>
+
+	  </div></div></div></body>
+	</html>
+
